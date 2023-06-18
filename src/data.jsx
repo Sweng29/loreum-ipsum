@@ -49,26 +49,31 @@ export const socialLinks = [
     id: 1,
     title: "Twitter",
     icon: <FaTwitter />,
+    url: "https://twitter.com/sweng29",
   },
   {
     id: 2,
     title: "Facebook",
     icon: <FaFacebook />,
+    url: "https://facebook.com/kashif.ali.khoso.7",
   },
   {
     id: 3,
     title: "Github",
     icon: <FaGithub />,
+    url: "https://github.com/Sweng29",
   },
   {
     id: 4,
     title: "Linkedin",
     icon: <FaLinkedin />,
+    url: "https://linkedin.com/kashif_ali",
   },
   {
     id: 5,
     title: "Youtube",
     icon: <FaYoutube />,
+    url: "https://www.youtube.com/channel/UCUYMVtmSRD1dEUI2K_1kedQ",
   },
 ];
 
