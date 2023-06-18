@@ -1,0 +1,147 @@
+/* ============= PROJECT CSS =============== */
+
+nav {
+  background: var(--white);
+  box-shadow: var(--shadow-1);
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.nav-toggle {
+  font-size: 1.5rem;
+  color: var(--primary-500);
+  background: transparent;
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  color: var(--primary-700);
+  transform: rotate(90deg);
+}
+.logo {
+  height: 40px;
+}
+.links a {
+  color: var(--grey-700);
+  font-size: 1rem;
+  text-transform: capitalize;
+  letter-spacing: var(--letterSpacing);
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.links a:hover {
+  background: var(--primary-100);
+  color: var(--primary-500);
+  padding-left: 1.5rem;
+}
+/* 160px */
+
+.links-container {
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.social-icons {
+  display: none;
+}
+
+@media screen and (min-width: 800px) {
+  .nav-toggle {
+    display: none;
+  }
+  .nav-header {
+    padding: 0;
+  }
+  .nav-center {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .links-container {
+    height: auto !important;
+  }
+  .links {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .links a {
+    padding: 0;
+  }
+  .links a:hover {
+    padding: 0;
+    background: transparent;
+  }
+  .social-icons {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .social-icons a {
+    color: var(--primary-500);
+    transition: var(--transition);
+  }
+  .social-icons a:hover {
+    color: var(--primary-300);
+  }
+}
+
+/* Lorem ipsum css */
+
+/* ============= PROJECT CSS =============== */
+.main-section {
+  margin-top: 5rem;
+  padding: 15px;
+  text-align: center;
+}
+
+.section-center {
+  width: 80vw;
+  max-width: 40rem;
+  margin: 10rem auto;
+}
+.section-center h4 {
+  text-transform: uppercase;
+}
+.lorem-form {
+  text-transform: capitalize;
+  letter-spacing: var(--letterSpacing);
+  margin-top: 2rem;
+  padding: 10px;
+  margin-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.lorem-form label {
+  font-size: 1.25rem;
+}
+
+.lorem-form input {
+  padding: 0.25rem 0.5rem;
+  width: 4rem;
+  border-radius: var(--borderRadius);
+  border-color: transparent;
+  background: var(--grey-300);
+  font-size: 1.25rem;
+}
+
+.lorem-form .btn {
+  align-self: auto;
+  padding: 0.6rem;
+  margin-left: 10px;
+}
+
+.lorem-text p {
+  line-height: 2;
+  margin-bottom: 2rem;
+}
